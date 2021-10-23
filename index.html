@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Pin Pong</title>
+    </head>
+    <body>
+        <div class="timer">
+            <p ><span id="minute">0</span>:<span id="seconds">0</span></p>
+        </div>
+        <header>
+            <svg
+                class="menu"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                style="fill: #26c6da; transform: ; msfilter: "
+            >
+                <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+            </svg>
+            <div class="button-place">
+                <!--<select name="" id="">
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>-->
+                <button id="newGame">New game</button>
+            </div>
+        </header>
+        <div id="game-border">
+            <div id="game"></div>
+        </div>
+        <div class="number-one">
+            <h1 id="left">0</h1>
+        </div>
+        <div class="number-two">
+            <h1 id="right">0</h1>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.1/svg.min.js"></script>
+        <script src="app.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
